@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+.header {
+    background-image: url(../img/mountain3.jpg);
+    background-position: center center; /* Nos aseguramos que la imagen de fondo este centrada vertical y horizontalmente en todo momento */
+    background-repeat: no-repeat; /* La imagen de fondo no se repite */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tituloHeader {
+    color: whitesmoke;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight:bold;
+}
+
+.subtituloHeader {
+    color: #df7f49;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.proyectos{
+    padding: 10%;
+    text-align: center;
+}
+
+.proyectosPersonales{
+    color: #cbcbcb;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Raleway';
+    margin-bottom: 4%;
+}
+
+.cuadro{
+    height: 50%;
+    background-color: #f8f8f8;
+    padding: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sobre{
+    padding: 5%;
+}
+.sobreMi{
+    color: #cbcbcb;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.cuadro2{
+    height: 50%;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.footer{
+    margin-top: 5%;
+    background-color: #18242a;
+    padding: 1%;
+    color: white;
+}
+
+.box img{
+    width: 100%;
+    padding-top: 2%;
+}
+
+.justify{
+    text-align: justify;
+}
