@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>900df0de-be87-11e0-8e37-00261812f484</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="spa">spa</gmd:LanguageCode>
+  </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:parentIdentifier>
+        <gco:CharacterString>900df0de-be87-11e0-8e37-00261812f484</gco:CharacterString>
+    </gmd:parentIdentifier>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName gco:nilReason="inapplicable"/>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Jefe de Sección de Sistemas de Infromación Territorial.</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Centro de Información Territorial de Aragón. Dirección General de Ordenación del Territorio. Departamento de Política Territorial e Interior. Gobierno de Aragón.</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Jefe de Sección de Sistemas de Infromación Territorial.</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>(+34) 97-671-55-56</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString>976714357</gco:CharacterString>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:city>
+                                <gco:CharacterString>ZARAGOZA.</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>ESPAÑA, ZARAGOZA.</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:country>
+                                <gco:CharacterString>ESPAÑA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>Protocolo http.</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:applicationProfile>
+                                <gco:CharacterString>Navegador web.</gco:CharacterString>
+                            </gmd:applicationProfile>
+                            <gmd:name>
+                                <gco:CharacterString>Límites Administrativos de Aragón: Municipios.</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón.</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:function>
+                                <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                            </gmd:function>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                    <gmd:hoursOfService>
+                        <gco:CharacterString>De Lunes a Viernes de: 9-14 h.</gco:CharacterString>
+                    </gmd:hoursOfService>
+                    <gmd:contactInstructions>
+                        <gco:CharacterString>Por correo electrónico o llamando por teléfono</gco:CharacterString>
+                    </gmd:contactInstructions>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:Date>2011-08-01</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115 Geographic information - Metadata</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115:2003</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>http://idearagon.aragon.es/descargas</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:spatialRepresentationInfo>
+        <gmd:MD_VectorSpatialRepresentation>
+            <gmd:topologyLevel>
+                <gmd:MD_TopologyLevelCode codeList="./resources/codeList.xml#MD_TopologyLevelCode" codeListValue="geometryOnly">geometryOnly</gmd:MD_TopologyLevelCode>
+            </gmd:topologyLevel>
+            <gmd:geometricObjects>
+                <gmd:MD_GeometricObjects>
+                    <gmd:geometricObjectType>
+                        <gmd:MD_GeometricObjectTypeCode codeList="./resources/codeList.xml#MD_GeometricObjectTypeCode" codeListValue="surface">surface</gmd:MD_GeometricObjectTypeCode>
+                    </gmd:geometricObjectType>
+                    <gmd:geometricObjectCount>
+                        <gco:Integer>731</gco:Integer>
+                    </gmd:geometricObjectCount>
+                </gmd:MD_GeometricObjects>
+            </gmd:geometricObjects>
+        </gmd:MD_VectorSpatialRepresentation>
+    </gmd:spatialRepresentationInfo>
+    <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+            <gmd:referenceSystemIdentifier>
+                <gmd:RS_Identifier>
+                    <gmd:authority>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-08-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                        </gmd:CI_Citation>
+                    </gmd:authority>
+                    <gmd:code>
+                        <gco:CharacterString>EPSG:25830</gco:CharacterString>
+                    </gmd:code>
+                </gmd:RS_Identifier>
+            </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>Límites de los términos municipales de Aragón.</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2011-01-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2011-01-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2011-01-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:identifier>
+                        <gmd:MD_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                            </gmd:code>
+                        </gmd:MD_Identifier>
+                    </gmd:identifier>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Centro de Información Territorial de Aragón</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>976715556</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString>976714357</gco:CharacterString>
+                                    </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>Paseo María Agustín, 36. Edificio Pignatelli. Puerta 14, 3ª planta.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>50071</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                    <gco:CharacterString>De Lunes a Viernes de: 9-14 h.</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>Por correo electrónico o llamando por teléfono</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                        <gmd:CI_PresentationFormCode codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                    </gmd:presentationForm>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón.
+                                
+                                Son una división de referencia indirecta del espacio de referencia. Las líneas de delimitación proceden del Instituto Geográfico Nacional (http://centrodedescargas.cnig.es/CentroDescargas) con las siguientes modificaciones: 
+                                
+                                - La línea límite entre Fago y Ansó no ha sido establecida, por lo que existen dos geometrías superpuestas para la delimitación de ambos municipios dado que el municipio de Fago no tiene delimitación física, quedando incluido dentro de la delimitación municipal de Ansó.
+                                - En el municipio de Loscos está incluída la Comunidad Pardina de Mercadal, que es de aprovechamiento común de varios municipios.
+                                - En el municipio de Segura de los Baños se ha incluído el Monte de Utilidad Pública El Franco, de aprovechamiento común con Vivel del Río Martín.
+			  - La línea Límite entre Calatayud y Villalba de Perejil no ha sido aceptada por ambos municipios según el acta de 1954, en lo que afecta al núcleo de Torres.
+                                - Se ha incluido el campo SUP_OF_KM2  con la superficie oficial del término municipal facilitada por el Instituto Nacional de Estadística. Debido a los procedimientos de medición y a las incidencias sobre líneas límite, ese dato no coincide necesariamente con el cálculo geométrico de la figura.
+			  - Se incluye la delimitación actualizada del municipio de Villamayor de Gállego, conforme a la Orden de 23 de febrero de 2007, del Departamento de Presidencia y Relaciones Institucionales del Gobierno de Aragón.
+                                 
+                                A continuación, se detallan las consideraciones del I.G.N. sobre el uso de esta información:
+                                
+                                Esta geometría de las líneas límite tiene la precisión de la escala 1:50.000, condicionada por los métodos e instrumentos topográficos utilizados para su obtención y posterior edición cartográfica. Por consiguiente, no se puede utilizar para la representación de los límites jurisdiccionales en cartografías a mayor escala (denominador más pequeño).
+                                
+                                Para obtener una geometría más precisa es necesario el replanteo sobre el terreno de las líneas límite, partiendo de la documentación técnica (cuaderno topográfico de campo) y jurídica (acta de deslinde) con la que figura inscrita cada una de ellas en el Registro Central de Cartografía de la Dirección General del Instituto Geográfico Nacional.
+                                
+                                Además, esta geometría más precisa, ha de ser refrendada jurídicamente por los propios Ayuntamientos mediante el levantamiento de las correspondientes actas de deslinde adicionales, conforme a los procedimientos administrativos establecidos en la legislación aplicable en cada caso. </gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>El dato tiene uso genérico para todo tipo de usuarios tanto internos como externos a la Administración y para cualquier tipo de aplicación o plataforma ya sean sistemas vectoriales, ya sean raster, etc.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:credit>
+                <gco:CharacterString>Producto realizado por el Centro de Información Territorial de Aragón (CINTA), del Departamento de Política Territorial e Interior del Gobierno de Aragón.</gco:CharacterString>
+            </gmd:credit>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Jefe de Sección de Sistemas de Infromación Territorial.</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Centro de Información Territorial de Aragón. Dirección General de Ordenación del Territorio. Departamento de Política Territorial e Interior. Gobierno de Aragón.</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Jefe de Sección de Sistemas de Infromación Territorial.</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>976715556</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString>976714357</gco:CharacterString>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>Paseo María Agustín, 36. Edificio Pignatelli. Puerta 14, 3ª planta.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>50071</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                    <gco:CharacterString>http.</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:applicationProfile>
+                                    <gco:CharacterString>Navegador web.</gco:CharacterString>
+                                    </gmd:applicationProfile>
+                                    <gmd:name>
+                                    <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                    <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón.</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                            <gmd:hoursOfService>
+                                <gco:CharacterString>De Lunes a Viernes de: 9-14 h.</gco:CharacterString>
+                            </gmd:hoursOfService>
+                            <gmd:contactInstructions>
+                                <gco:CharacterString>Por correo electrónico o llamando por teléfono</gco:CharacterString>
+                            </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="Punto de contacto">Punto de contacto</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:resourceMaintenance>
+                <gmd:MD_MaintenanceInformation>
+                    <gmd:maintenanceAndUpdateFrequency>
+                        <gmd:MD_MaintenanceFrequencyCode codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
+                    </gmd:maintenanceAndUpdateFrequency>
+                </gmd:MD_MaintenanceInformation>
+            </gmd:resourceMaintenance>
+            <gmd:graphicOverview>
+                <gmd:MD_BrowseGraphic>
+                    <gmd:fileName>
+                        <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                    </gmd:fileName>
+                    <gmd:fileDescription>
+                        <gco:CharacterString>Muestra de la cobertura. http://idearagon.aragon.es/descargas</gco:CharacterString>
+		</gmd:fileDescription>
+                    <gmd:fileType>
+                        <gco:CharacterString>JPG</gco:CharacterString>
+                    </gmd:fileType>
+                </gmd:MD_BrowseGraphic>
+            </gmd:graphicOverview>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Geografia E Historia.Geografía</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>AGROVOC</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="missing"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>CARTOGRAPHY</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>CEODisicpline</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>LAND PLANNING &amp; INFRASTRUCTURES</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>CEODisicpline</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>GEOGRAFÍA</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>EUROVOC</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>SUPERFICIE TERRESTRE</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GCMD</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="Publicación">Publicación</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>ASPECTOS SOCIALES, POLITICA AMBIENTAL, MEDIDAS.ADMINISTRACIÓN, GESTIÓN, POLÍTICA, INSTITUCIONES, PLANIFICACIÓN.administración.organización administrativa</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Unidades administrativas</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>INSPIRE_SpatialThemes</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>POLÍTICA, DERECHO Y ECONOMÍA.ORGANIZACIÓN Y GESTIÓN.ADMINISTRACIÓN</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>UNESCO</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>CIENCIA.GEOGRAFÍA Y OCEANOGRAFÍA.GEOGRAFÍA.GEOGRAFÍA REGIONAL</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>UNESCO</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>GENERIC AREA TERMS.EUROPE</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>CEOLocation</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>ESPAÑA.ARAGÓN</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>EuropeanTerritorialUnits</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>ESPAÑA</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>ISO3166</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier gco:nilReason="inapplicable"/>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceSpecificUsage>
+                <gmd:MD_Usage>
+                    <gmd:specificUsage>
+                        <gco:CharacterString>Visor de Mapas del Sistema de Información Territorial de Aragón (SITAR).</gco:CharacterString>
+                    </gmd:specificUsage>
+                    <gmd:usageDateTime>
+                        <gco:DateTime>2011-01-01</gco:DateTime>
+                    </gmd:usageDateTime>
+                    <gmd:userDeterminedLimitations>
+                        <gco:CharacterString>No aplica.</gco:CharacterString>
+                    </gmd:userDeterminedLimitations>
+                    <gmd:userContactInfo>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Centro de Información Territorial de Aragón</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>976715556</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString>976714357</gco:CharacterString>
+                                    </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>Paseo María Agustín, 36. Edificio Pignatelli. Puerta 14, 3ª planta.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>50071</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                    <gco:CharacterString>De Lunes a Viernes de: 9-14 h.</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>Por correo electrónico o llamando por teléfono</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="user">user</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:userContactInfo>
+                    <gmd:userContactInfo>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Facultativo Superior Especialista. Geógrafo</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Centro de Información Territorial de Aragón. Dirección General de Ordenación del Territorio. Departamento de Política Territorial e Interior. Gobierno de Aragón.</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Facultativo Superior Especialista. Geógrafo.</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString/>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString/>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString/>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString/>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                    <gco:CharacterString>De Lunes a Viernes de: 8-14 h. ó 16-18 h.</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>Por correo eléctronico o llamando por teléfono.</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="user">user</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:userContactInfo>
+                </gmd:MD_Usage>
+            </gmd:resourceSpecificUsage>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Su uso comercial externo al del organismo propietario de la información.</gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:accessConstraints>
+                        <gmd:MD_RestrictionCode codeList="./resources/codeList.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
+                    </gmd:accessConstraints>
+                    <gmd:useConstraints>
+                        <gmd:MD_RestrictionCode codeList="./resources/codeList.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
+                    </gmd:useConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Derecho de Propiedad Intelectual / Restringido DECRETO 37/1997, de 8 de abril, del Gobierno de Aragón, por el que se establecen los precios públicos aplicables al suministro de información gráfica del Departamento de Ordenación Territorial, Obras Públicas y Transportes.</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_SecurityConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Su uso comercial externo al del organismo propietario de la información.</gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:classification>
+                        <gmd:MD_ClassificationCode codeList="./resources/codeList.xml#MD_ClassificationCode" codeListValue="restricted">restricted</gmd:MD_ClassificationCode>
+                    </gmd:classification>
+                </gmd:MD_SecurityConstraints>
+            </gmd:resourceConstraints>
+            <gmd:spatialRepresentationType>
+                <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+            </gmd:spatialRepresentationType>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:equivalentScale>
+                        <gmd:MD_RepresentativeFraction>
+                            <gmd:denominator>
+                                <gco:Integer>50000</gco:Integer>
+                            </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                    </gmd:equivalentScale>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:language>
+                <gmd:LanguageCode codeList="./resources/codeList.xml#LanguageCode" codeListValue="es">es</gmd:LanguageCode>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>location</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:environmentDescription>
+                <gco:CharacterString>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.</gco:CharacterString>
+            </gmd:environmentDescription>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description gco:nilReason="inapplicable"/>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-2.22514</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>0.84639</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>39.81914</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>43.01422</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>565494.78335935261566</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>813560.19889691565186</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>4409848.4379202658311</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>4769943.3959586638957</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimeInstant gml:id="timeInstantDate">
+                                    <gml:timePosition>2011-01-01T11:28:52</gml:timePosition>
+                                </gml:TimeInstant>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                    <gmd:verticalElement>
+                        <gmd:EX_VerticalExtent>
+                            <gmd:minimumValue>
+                                <gco:Real>0.0</gco:Real>
+                            </gmd:minimumValue>
+                            <gmd:maximumValue>
+                                <gco:Real>0.0</gco:Real>
+                            </gmd:maximumValue>
+                            <gmd:verticalCRS>
+                                <gml:VerticalCRS gml:id="verticalCRSN102C3">
+                                    <gml:identifier codeSpace="25830"/>
+                                    <gml:scope>Desconocido</gml:scope>
+                                    <gml:verticalCS>
+                                    <gml:VerticalCS gml:id="verticalCSN102C3">
+                                    <gml:axis>
+
+                                    <gml:CoordinateSystemAxis gml:id="coordinateSystemAxisN102C3" gml:uom="No aplica">
+                                    <gml:identifier>25830</gml:identifier>
+                                    <gml:axisAbbrev>25830</gml:axisAbbrev>
+                                    <gml:axisDirection>25830</gml:axisDirection>
+                                    </gml:CoordinateSystemAxis>
+                                    </gml:axis>
+                                    <gml:identifier>25830</gml:identifier>
+                                    </gml:VerticalCS>
+                                    </gml:verticalCS>
+                                    <gml:verticalDatum>
+                                    <gml:VerticalDatum gml:id="verticalDatumN102C3">
+                                    <gml:identifier>25830</gml:identifier>
+                                    <gml:name>25830</gml:name>
+                                    <gml:scope>Desconocido</gml:scope>
+                                    </gml:VerticalDatum>
+                                    </gml:verticalDatum>
+                                </gml:VerticalCRS>
+                            </gmd:verticalCRS>
+                        </gmd:EX_VerticalExtent>
+                    </gmd:verticalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description gco:nilReason="inapplicable"/>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>569300.999689</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>810738.999018</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>4413135.998961</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>4755088.998703</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement gco:nilReason="inapplicable"/>
+                    <gmd:verticalElement gco:nilReason="inapplicable"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Son una división de referencia indirecta del espacio de referencia. Las líneas de delimitación proceden del Instituto Geográfico Nacional (http://centrodedescargas.cnig.es/CentroDescargas) con las siguientes modificaciones: 
+                                
+			  - La línea límite entre Fago y Ansó no ha sido establecida, por lo que existen dos geometrías superpuestas para la delimitación de ambos municipios dado que el municipio de Fago no tiene delimitación física, quedando incluido dentro de la delimitación municipal de Ansó.
+                                - En el municipio de Loscos está incluída la Comunidad Pardina de Mercadal, que es de aprovechamiento común de varios municipios.
+                                - En el municipio de Segura de los Baños se ha incluído el Monte de Utilidad Pública El Franco, de aprovechamiento común con Vivel del Río Martín.
+			  - La línea Límite entre Calatayud y Villalba de Perejil no ha sido aceptada por ambos municipios según el acta de 1954, en lo que afecta al núcleo de Torres.
+                                - Se ha incluido el campo SUP_OF_KM2  con la superficie oficial del término municipal facilitada por el Instituto Nacional de Estadística. Debido a los procedimientos de medición y a las incidencias sobre líneas límite, ese dato no coincide necesariamente con el cálculo geométrico de la figura.
+			  - Se incluye la delimitación actualizada del municipio de Villamayor de Gállego, conforme a la Orden de 23 de febrero de 2007, del Departamento de Presidencia y Relaciones Institucionales del Gobierno de Aragón.</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:contentInfo>
+        <gmd:MD_FeatureCatalogueDescription>
+            <gmd:complianceCode>
+                <gco:Boolean>0</gco:Boolean>
+            </gmd:complianceCode>
+            <gmd:includedWithDataset/>
+            <gmd:featureCatalogueCitation/>
+        </gmd:MD_FeatureCatalogueDescription>
+    </gmd:contentInfo>
+    <gmd:contentInfo>
+        <gmd:MD_ImageDescription>
+            <gmd:attributeDescription/>
+            <gmd:contentType>
+                <gmd:MD_CoverageContentTypeCode codeList="./resources/codeList.xml#MD_CoverageContentTypeCode" codeListValue=""/>
+            </gmd:contentType>
+            <gmd:triangulationIndicator>
+                <gco:Boolean>0</gco:Boolean>
+            </gmd:triangulationIndicator>
+            <gmd:radiometricCalibrationDataAvailability>
+                <gco:Boolean>0</gco:Boolean>
+            </gmd:radiometricCalibrationDataAvailability>
+            <gmd:cameraCalibrationInformationAvailability>
+                <gco:Boolean>0</gco:Boolean>
+            </gmd:cameraCalibrationInformationAvailability>
+            <gmd:filmDistortionInformationAvailability>
+                <gco:Boolean>0</gco:Boolean>
+            </gmd:filmDistortionInformationAvailability>
+            <gmd:lensDistortionInformationAvailability>
+                <gco:Boolean>0</gco:Boolean>
+            </gmd:lensDistortionInformationAvailability>
+        </gmd:MD_ImageDescription>
+    </gmd:contentInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>SDE-Feature Class</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>9.3.1</gco:CharacterString>
+                    </gmd:version>
+                    <gmd:specification>
+                        <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón. Recoge el siguiente tipo de información: 
+			Campos de la tabla de atributos:
+			NOMBRE DEL CAMPO	TIPO DE DATO			DESCRIPCION DEL CAMPO
+			OBJECTID			NOT NULL NUMBER(38) 	Identificador único del objeto
+			SHAPE			NUMBER(38)			Geometría del geodato	
+			C_MUNI_INE		NUMBER(5)			Código INE del municipio. 5 dígitos dondo los dos primeros corresponden con el código de Provincia.
+			D_MUNI_INE		STRING(50)				Denominación oficial del nombre del Municipio.
+			C_COMARCA		NUMBER(2)			Código de Comarca (según LEY 10/1993 de Comarcalización de Aragón).
+			D_COMACA		STRING(75) 			Nombre abreviado de la Comarca.
+			D_COMARCA1		STRING(65) 			Denominación oficial del nombre de la Comarca (según LEY 10/1993 de Comarcalización de Aragón).
+			D_MUNI_INE1		STRING(90)				Denominación oficial del nombre del Municipio.
+			PROVINCIA		STRING(20)				Denominación oficial del nombre de la Provincia.
+			FECHA_INI		NUMBER(8)			Fecha de inicio de validez del registro en la base de datos.
+			FECHA_FIN		NUMBER(8)			Fecha de inicio de validez del registro en la base de datos.
+			SUP_OF_KM2		DOUBLE (10,2)			Superficie oficial del Municipio en kilómetros cuadrados según el INE.
+			FONETICA			STRING(80) 			Cadena de caracteres de uso interno para búsquedas en las aplicaciones de la plataforma SITAR.
+			C_MUNI_CAT		DOUBLE (10,0)			Código catastral del Municipio.
+			SHAPE_AREA		DOUBLE (0,0) 			Superficie asociada a la geometría en metros cuadrados.
+			SHAPE_LEN		DOUBLE (0,0)			Longitud del perímetro asociado a la geometría en metros.
+			OBSERV			STRING(20)				Observaciones sobre la geometría del límite municipal.
+			</gco:CharacterString>
+                    </gmd:specification>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>SHP</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>9.3.1</gco:CharacterString>
+                    </gmd:version>
+                    <gmd:specification>
+                        <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón. Recoge el siguiente tipo de información: 
+			Campos de la tabla de atributos:
+			NOMBRE DEL CAMPO		TIPO DE DATO			DESCRIPCION DEL CAMPO
+			OBJECTID				NOT NULL NUMBER(38) 	Identificador único del objeto
+			SHAPE				NUMBER(38)			Geometría del geodato	
+			C_MUNI_INE			NUMBER(5)			Código INE del municipio. 5 dígitos dondo los dos primeros corresponden con el código de Provincia.
+			D_MUNI_INE			STRING(50)				Denominación oficial del nombre del Municipio.
+			C_COMARCA			NUMBER(2)			Código de Comarca (según LEY 10/1993 de Comarcalización de Aragón).
+			D_COMACA			STRING(75) 			Nombre abreviado de la Comarca.
+			D_COMARCA1			STRING(65) 			Denominación oficial del nombre de la Comarca (según LEY 10/1993 de Comarcalización de Aragón).
+			D_MUNI_INE1			STRING(90)				Denominación oficial del nombre del Municipio.
+			PROVINCIA			STRING(20)				Denominación oficial del nombre de la Provincia.
+			FECHA_INI			NUMBER(8)			Fecha de inicio de validez del registro en la base de datos.
+			FECHA_FIN			NUMBER(8)			Fecha de inicio de validez del registro en la base de datos.
+			SUP_OF_KM2			DOUBLE (10,2)			Superficie oficial del Municipio en kilómetros cuadrados según el INE.
+			FONETICA				STRING(80) 			Cadena de caracteres de uso interno para búsquedas en las aplicaciones de la plataforma SITAR.
+			C_MUNI_CAT			DOUBLE (10,0)			Código catastral del Municipio.
+			SHAPE_AREA			DOUBLE (0,0) 			Superficie asociada a la geometría en metros cuadrados.
+			SHAPE_LEN			DOUBLE (0,0)			Longitud del perímetro asociado a la geometría en metros.
+			OBSERV				STRING(20)				Observaciones sobre la geometría del límite municipal.
+			</gco:CharacterString>
+		</gmd:specification>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+	  <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>DXF</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>2000</gco:CharacterString>
+                    </gmd:version>
+                    <gmd:specification>
+                        <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón. Recoge el siguiente tipo de información: 
+			Campos de la tabla de atributos:
+			NOMBRE DEL CAMPO		TIPO DE DATO			DESCRIPCION DEL CAMPO
+			OBJECTID				NOT NULL NUMBER(38) 	Identificador único del objeto
+			SHAPE				NUMBER(38)			Geometría del geodato	
+			C_MUNI_INE			NUMBER(5)			Código INE del municipio. 5 dígitos dondo los dos primeros corresponden con el código de Provincia.
+			D_MUNI_INE			STRING(50)				Denominación oficial del nombre del Municipio.
+			C_COMARCA			NUMBER(2)			Código de Comarca (según LEY 10/1993 de Comarcalización de Aragón).
+			D_COMACA			STRING(75) 			Nombre abreviado de la Comarca.
+			D_COMARCA1			STRING(65) 			Denominación oficial del nombre de la Comarca (según LEY 10/1993 de Comarcalización de Aragón).
+			D_MUNI_INE1			STRING(90)				Denominación oficial del nombre del Municipio.
+			PROVINCIA			STRING(20)				Denominación oficial del nombre de la Provincia.
+			FECHA_INI			NUMBER(8)			Fecha de inicio de validez del registro en la base de datos.
+			FECHA_FIN			NUMBER(8)			Fecha de inicio de validez del registro en la base de datos.
+			SUP_OF_KM2			DOUBLE (10,2)			Superficie oficial del Municipio en kilómetros cuadrados según el INE.
+			FONETICA				STRING(80) 			Cadena de caracteres de uso interno para búsquedas en las aplicaciones de la plataforma SITAR.
+			C_MUNI_CAT			DOUBLE (10,0)			Código catastral del Municipio.
+			SHAPE_AREA			DOUBLE (0,0) 			Superficie asociada a la geometría en metros cuadrados.
+			SHAPE_LEN			DOUBLE (0,0)			Longitud del perímetro asociado a la geometría en metros.
+			OBSERV				STRING(20)				Observaciones sobre la geometría del límite municipal.
+			</gco:CharacterString>
+		</gmd:specification>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Centro de Información Territorial de Aragón</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>976715556</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString>976714357</gco:CharacterString>
+                                    </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>Paseo María Agustín, 36. Edificio Pignatelli. Puerta 14, 3ª planta.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>50071</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                    <gco:CharacterString>De Lunes a Viernes de: 9-14 h.</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>Por correo electrónico o llamando por teléfono</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributionOrderProcess>
+                        <gmd:MD_StandardOrderProcess>
+                            <gmd:fees>
+                                <gco:CharacterString>Este producto es de uso interno del CINTA y por lo tanto no tiene precio de venta al público.</gco:CharacterString>
+                            </gmd:fees>
+                            <gmd:turnaround>
+                                <gco:CharacterString>No aplica.</gco:CharacterString>
+                            </gmd:turnaround>
+                        </gmd:MD_StandardOrderProcess>
+                    </gmd:distributionOrderProcess>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:unitsOfDistribution>
+                        <gco:CharacterString>En personal geodatabase, export de sde, shapefile o coverage.</gco:CharacterString>
+                    </gmd:unitsOfDistribution>
+                    <gmd:transferSize>
+                        <gco:Real>0.0</gco:Real>
+                    </gmd:transferSize>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>http:</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:applicationProfile>
+                                <gco:CharacterString>Navegador web.</gco:CharacterString>
+                            </gmd:applicationProfile>
+                            <gmd:name>
+                                <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón.</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:function>
+                                <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                            </gmd:function>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                    </gmd:level>
+                    <gmd:extent>
+                        <gmd:EX_Extent>
+                            <gmd:description gco:nilReason="inapplicable"/>
+                            <gmd:geographicElement>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:westBoundLongitude>
+                                    <gco:Decimal>569300.999689</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                    <gco:Decimal>810738.999018</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                    <gco:Decimal>4413135.998961</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                    <gco:Decimal>4755088.998703</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:geographicElement>
+                            <gmd:temporalElement gco:nilReason="inapplicable"/>
+                            <gmd:verticalElement gco:nilReason="inapplicable"/>
+                        </gmd:EX_Extent>
+                    </gmd:extent>
+                    <gmd:levelDescription gco:nilReason="inapplicable"/>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:report gco:nilReason="inapplicable"/>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:statement>
+                        <gco:CharacterString>Son una división de referencia indirecta del espacio de referencia. Las líneas de delimitación proceden del Instituto Geográfico Nacional (http://centrodedescargas.cnig.es/CentroDescargas) con las siguientes modificaciones: 
+                                      
+			        - La línea límite entre Fago y Ansó no ha sido establecida, por lo que existen dos geometrías superpuestas para la delimitación de ambos municipios dado que el municipio de Fago no tiene delimitación física, quedando incluido dentro de la delimitación municipal de Ansó.
+                                      - En el municipio de Loscos está incluída la Comunidad Pardina de Mercadal, que es de aprovechamiento común de varios municipios.
+                                      - En el municipio de Segura de los Baños se ha incluído el Monte de Utilidad Pública El Franco, de aprovechamiento común con Vivel del Río Martín.
+			        - La línea Límite entre Calatayud y Villalba de Perejil no ha sido aceptada por ambos municipios según el acta de 1954, en lo que afecta al núcleo de Torres.
+                                      - Se ha incluido el campo SUP_OF_KM2  con la superficie oficial del término municipal facilitada por el Instituto Nacional de Estadística. Debido a los procedimientos de medición y a las incidencias sobre líneas límite, ese dato no coincide necesariamente con el cálculo geométrico de la figura.
+			        -  Se incluye la delimitación actualizada del municipio de Villamayor de Gállego, conforme a la Orden de 23 de febrero de 2007, del Departamento de Presidencia y Relaciones Institucionales del Gobierno de Aragón.
+                                       
+                                      A continuación, se detallan las consideraciones del I.G.N. sobre el uso de esta información:
+                                      
+                                      Esta geometría de las líneas límite tiene la precisión de la escala 1:50.000, condicionada por los métodos e instrumentos topográficos utilizados para su obtención y posterior edición cartográfica. Por consiguiente, no se puede utilizar para la representación de los límites jurisdiccionales en cartografías a mayor escala (denominador más pequeño).
+                                      
+                                      Para obtener una geometría más precisa es necesario el replanteo sobre el terreno de las líneas límite, partiendo de la documentación técnica (cuaderno topográfico de campo) y jurídica (acta de deslinde) con la que figura inscrita cada una de ellas en el Registro Central de Cartografía de la Dirección General del Instituto Geográfico Nacional.
+                                      
+                                      Además, esta geometría más precisa, ha de ser refrendada jurídicamente por los propios Ayuntamientos mediante el levantamiento de las correspondientes actas de deslinde adicionales, conforme a los procedimientos administrativos establecidos en la legislación aplicable en cada caso. </gco:CharacterString>
+                    </gmd:statement>
+                    <gmd:processStep>
+                        <gmd:LI_ProcessStep>
+                            <gmd:description>
+                                <gco:CharacterString>Procesamiento:
+                1. Cambio de formato. Exportación de formatos vectoriales. De bbdd a *.shp.
+                2. Georreferenciación. Coordenadas. Según la Orden de 23 de febrero de 2007, del Departamento de Presidencia y Relaciones Institucionales.
+                3. Cambio de formato. Exportación de formatos vectoriales. De *.shp a bbdd.</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:rationale>
+                                <gco:CharacterString>Según la Orden de 23 de febrero de 2007, del Departamento de Presidencia y Relaciones Institucionales.</gco:CharacterString>
+                            </gmd:rationale>
+                            <gmd:dateTime>
+                                <gco:DateTime>2007-02-25T11:48:01</gco:DateTime>
+                            </gmd:dateTime>
+                            <gmd:processor>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName>
+                                    <gco:CharacterString>Facultativo Superior Especialista. Geógrafo</gco:CharacterString>
+                                    </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Centro de Información Territorial de Aragón. Dirección General de Ordenación del Territorio. Departamento de Política Territorial e Interior. Gobierno de Aragón.</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Facultativo Superior Especialista. Geógrafo.</gco:CharacterString>
+                            </gmd:positionName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString/>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString/>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                    <gco:CharacterString>http</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:applicationProfile>
+                                    <gco:CharacterString>Navegador web.</gco:CharacterString>
+                                    </gmd:applicationProfile>
+                                    <gmd:name>
+                                    <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                                    </gmd:name>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                    <gco:CharacterString>De Lunes a Viernes de: 8-14 h. ó 16-18 h.</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>Por correo eléctronico o llamando por teléfono.</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:processor>
+                            <gmd:source>
+                                <gmd:LI_Source>
+                                    <gmd:description>
+                                    <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón.</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:scaleDenominator>
+                                    <gmd:MD_RepresentativeFraction>
+                                    <gmd:denominator>
+                                    <gco:Integer>50000</gco:Integer>
+                                    </gmd:denominator>
+                                    </gmd:MD_RepresentativeFraction>
+                                    </gmd:scaleDenominator>
+                                    <gmd:sourceCitation>
+                                    <gmd:CI_Citation>
+                                    <gmd:title>
+                                    <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:alternateTitle>
+                                    <gco:CharacterString>Límites de los términos municipales de Aragón.</gco:CharacterString>
+                                    </gmd:alternateTitle>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:citedResponsibleParty>
+                                    <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>Centro de Información Territorial de Aragón</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>976715556</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString>976714357</gco:CharacterString>
+                                    </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>Paseo María Agustín, 36. Edificio Pignatelli. Puerta 14, 3ª planta.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>50071</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                    <gco:CharacterString>De Lunes a Viernes de: 9-14 h.</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>Por correo electrónico o llamando por teléfono</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+                                    </gmd:citedResponsibleParty>
+                                    <gmd:presentationForm>
+
+                                    <gmd:CI_PresentationFormCode codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                                    </gmd:presentationForm>
+                                    </gmd:CI_Citation>
+                                    </gmd:sourceCitation>
+                                    <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                                </gmd:LI_Source>
+                            </gmd:source>
+                        </gmd:LI_ProcessStep>
+                    </gmd:processStep>
+                    <gmd:source>
+                        <gmd:LI_Source>
+                            <gmd:description>
+                                <gco:CharacterString>Geodato que almacena información sobre los límites administrativos municipales de Aragón.</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:scaleDenominator>
+                                <gmd:MD_RepresentativeFraction>
+                                    <gmd:denominator>
+                                    <gco:Integer>50000</gco:Integer>
+                                    </gmd:denominator>
+                                </gmd:MD_RepresentativeFraction>
+                            </gmd:scaleDenominator>
+                            <gmd:sourceCitation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                    <gco:CharacterString>T02_Municipios</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:alternateTitle>
+                                    <gco:CharacterString>Límites de los términos municipales de Aragón.</gco:CharacterString>
+                                    </gmd:alternateTitle>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:date>
+                                    <gmd:CI_Date>
+                                    <gmd:date>
+                                    <gco:Date>2011-01-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                    </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:citedResponsibleParty>
+                                    <gmd:CI_ResponsibleParty>
+                                    <gmd:organisationName>
+                                    <gco:CharacterString>Centro de Información Territorial de Aragón</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                    <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>976715556</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString>976714357</gco:CharacterString>
+                                    </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                    <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>Paseo María Agustín, 36. Edificio Pignatelli. Puerta 14, 3ª planta.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>Zaragoza</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>Aragón</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>50071</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>España</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                    </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                    <gmd:hoursOfService>
+                                    <gco:CharacterString>De Lunes a Viernes de: 9-14 h.</gco:CharacterString>
+                                    </gmd:hoursOfService>
+                                    <gmd:contactInstructions>
+                                    <gco:CharacterString>Por correo electrónico o llamando por teléfono</gco:CharacterString>
+                                    </gmd:contactInstructions>
+                                    </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                    <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+                                    </gmd:citedResponsibleParty>
+                                    <gmd:presentationForm>
+                                    <gmd:CI_PresentationFormCode codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</gmd:CI_PresentationFormCode>
+                                    </gmd:presentationForm>
+                                </gmd:CI_Citation>
+                            </gmd:sourceCitation>
+                            <gmd:sourceExtent gco:nilReason="inapplicable"/>
+                        </gmd:LI_Source>
+                    </gmd:source>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataConstraints>
+        <gmd:MD_LegalConstraints>
+            <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeList="./resources/codeList.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
+            </gmd:accessConstraints>
+            <gmd:useConstraints>
+                <gmd:MD_RestrictionCode codeList="./resources/codeList.xml#MD_RestrictionCode" codeListValue="restricted">restricted</gmd:MD_RestrictionCode>
+            </gmd:useConstraints>
+            <gmd:otherConstraints>
+                <gco:CharacterString>Este es un metadato de uso interno del Centro de Información Territorial de Aragón (CINTA) cuyo objetivo es tener catalogada toda la información interna del Gobierno de Aragón.</gco:CharacterString>
+            </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
+    <gmd:metadataConstraints>
+        <gmd:MD_SecurityConstraints>
+            <gmd:classification>
+                <gmd:MD_ClassificationCode codeList="./resources/codeList.xml#MD_ClassificationCode" codeListValue="restricted">restricted</gmd:MD_ClassificationCode>
+            </gmd:classification>
+        </gmd:MD_SecurityConstraints>
+    </gmd:metadataConstraints>
+    <gmd:applicationSchemaInfo>
+        <gmd:MD_ApplicationSchemaInformation>
+            <gmd:name/>
+            <gmd:schemaLanguage/>
+            <gmd:constraintLanguage/>
+            <gmd:schemaAscii>
+                <gco:CharacterString>&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt; &lt;eainfo/&gt;</gco:CharacterString>
+            </gmd:schemaAscii>
+        </gmd:MD_ApplicationSchemaInformation>
+    </gmd:applicationSchemaInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+                <gmd:MD_MaintenanceFrequencyCode codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="annually">annually</gmd:MD_MaintenanceFrequencyCode>
+            </gmd:maintenanceAndUpdateFrequency>
+            <gmd:dateOfNextUpdate>
+                <gco:Date>2012-01-01</gco:Date>
+            </gmd:dateOfNextUpdate>
+            <gmd:userDefinedMaintenanceFrequency>
+                <gts:TM_PeriodDuration>Anualmente</gts:TM_PeriodDuration>
+            </gmd:userDefinedMaintenanceFrequency>
+            <gmd:updateScope>
+                <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+            </gmd:updateScope>
+            <gmd:updateScopeDescription>
+                <gmd:MD_ScopeDescription>
+                    <gmd:attributes>FECHA DE ALTA DE LA GEOMETRIA</gmd:attributes>
+                    <gmd:attributes>FECHA DE BAJA DE LA GEOMETRIA</gmd:attributes>
+                    <gmd:features gco:nilReason="inapplicable"/>
+                    <gmd:featureInstances gco:nilReason="inapplicable"/>
+                    <gmd:attributeInstances gco:nilReason="inapplicable"/>
+                    <gmd:dataset gco:nilReason="inapplicable"/>
+                    <gmd:other gco:nilReason="inapplicable"/>
+                </gmd:MD_ScopeDescription>
+            </gmd:updateScopeDescription>
+            <gmd:updateScopeDescription>
+                <gmd:MD_ScopeDescription>
+                    <gmd:attributes gco:nilReason="inapplicable"/>
+                    <gmd:features>MODIFICACION DE LIMITES GEOGRÁFICOS.</gmd:features>
+                    <gmd:featureInstances gco:nilReason="inapplicable"/>
+                    <gmd:attributeInstances gco:nilReason="inapplicable"/>
+                    <gmd:dataset gco:nilReason="inapplicable"/>
+                    <gmd:other gco:nilReason="inapplicable"/>
+                </gmd:MD_ScopeDescription>
+            </gmd:updateScopeDescription>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>La labor de mantenimiento es anual y/o demanda por la Administración autonómica.</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>
+        Jefe de Sección de Sistemas de Información Territorial.</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Centro de Información Territorial de Aragón. Dirección General de Urbanismo. Dirección General de Ordenación del Territorio. Departamento de Política Territorial e Interior. Gobierno de Aragón.</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Jefe de Sección de Sistemas de Información Territorial.</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                    <gco:CharacterString>(+34) 97-671-55-56</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                    <gco:CharacterString>976714357</gco:CharacterString>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                    <gco:CharacterString>Paseo María Agustín, 36. Edificio Pignatelli. Puerta 14, 3ª planta.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                    <gco:CharacterString>ZARAGOZA.</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                    <gco:CharacterString>ESPAÑA. ZARAGOZA.</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                    <gco:CharacterString>50071</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                    <gco:CharacterString>ESPAÑA.</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>cinta@aragon.es</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                    <gmd:URL>http://idearagon.aragon.es/descargas</gmd:URL>
+                                    </gmd:linkage>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmd:MD_Metadata>

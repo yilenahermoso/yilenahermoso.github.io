@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cargando capas GeoJSON en Leaflet</title>
+    <meta charset="utf-8" />
+
+    <!-- enlace a CSS de Leaflet v. 1.6.0 en la cabecera -->
+    <link rel="stylesheet" href="codigo_js/leaflet.css"/>
+
+    <!-- enlace a JS de Leaflet v. 1.6.0 (justo tras CSS) -->
+    <script src="codigo_js/leaflet.js">
+    </script>
+</head>
+
+<body>
+
+<h2>Mapa con capas GeoJSON</h2>
+
+<p>A continuación tienes un mapa con dos capas desde archivos GeoJSON:</p>
+
+<!-- bloque dónde aparecerá el mapa -->
+<div id="bloque_mapa0" 
+    style="width: 500px; height: 600px;">
+</div>
+
+<!-- cargar javascript (objeto GeoJSON transformado) -->
+<script src="layers/municipios.geojson"></script>
+
+<!-- Otra Capa -->
+<script src="layers/comarcas_aragon.geojson"></script>
+
+<!-- Aqui incluyo código JS de Leaflet -->
+
+<script>
+
+// definimos el mapa como una variable y le ajustamos dónde lo queremos ver
+
+var mapa1 = L.map('bloque_mapa0').setView([42, 0], 8);
+
+// Mapa de base TMS OpenStreetMap
+
+var OSM_mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+
+OSM_mapnik.addTo(mapa1)
+
+// Incluir capa de Comarcas desde GeoJSON
+
+var comarcas = L.geoJSON(comarcas); // genero capa leaflet
+comarcas.addTo(mapa1)               // la cargo al mapa
+
+// Incluir capa de Municipios de Huesca desde GeoJSON
+
+var municipios = L.geoJSON( // crear objeto municipios como capa geojson
+  municipios, {             // código a cargar: `municipios`
+  color: 'red',             // estilo color
+  fillColor: 'blue',        //        color de relleno
+  fillOpacity: 0.2,         //        opacidad de relleno
+  });
+
+municipios.addTo(mapa1)   //
+
+// INICIO de código de Control de capas
+
+// CAPAS BASE - que puedo intercambiar
+var baseMaps = {                  // variable con apartado de mapas base
+    "OpenStreetMap": OSM_mapnik,  // elemento a incluir y descripción
+    //"Imagen PNOA": PNOA1
+    };
+
+// Capas del proyecto que puedo activar y desactivar
+var overlayMaps = {              // apartado de capas
+    "Municipios de Huesca": municipios,     // elemento a incluir y descripción
+    "Comarcas de Aragón": comarcas,
+    };
+
+// Ahora genero el control de las capas
+var capas = L.control.layers(   // variable con control de capas
+  baseMaps,                     // añadiendo capas base
+  overlayMaps,                  // añadiendo capas
+  {collapsed:true,              // control desplegado
+   hideSingleBase:true          // esconder base (solo hay una) 
+  });           
+
+// Y lo cargo a mi mapa
+capas.addTo(mapa1);           // añadimos control de capas al mapa
+
+
+// ESCALA del mapa (formato abreviado)
+L.control.scale().addTo(mapa1);
+
+</script>

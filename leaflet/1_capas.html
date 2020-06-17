@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Añadiendo capas a Leaflet</title>
+    <meta charset="utf-8" />
+
+    <!-- Enlazo a archivos con código CSS y JS de Leaflet 
+     que tengo en un directorio local: /codigo_js-->
+
+    <!-- enlace a CSS de Leaflet v. 1.6.0 en la cabecera -->
+    <link rel="stylesheet" href="codigo_js/leaflet.css"/>
+
+    <!-- enlace a JS de Leaflet v. 1.6.0 (justo tras CSS) -->
+    <script src="codigo_js/leaflet.js"> </script>
+</head>
+
+<body>
+
+<h1>Mapa con capas</h2>
+
+<p>A continuación tienes un ejemplo de un mapa con capas diversas:</p>
+
+<!-- Bloque dónde aparecerá el mapa -->
+<div id="bloque_mapa1" 
+    style="width: 500px; height: 600px;">
+</div>
+
+<!-- Código JS de Leaflet -->
+
+<script>
+
+// 0. Definimos el mapa como una variable y le ajustamos dónde lo queremos ver
+
+var mapa1 = L.map('bloque_mapa1').setView([40, -2], 5);
+
+// A partir de aquí añadimos las capas
+
+// 1. Capa cargar TMS de ejemplo (1)
+
+var stamen_tms = L.tileLayer(
+  'http://a.tile.stamen.com/terrain/{z}/{x}/{y}.png', { // URL con tiles
+      // texto de atribución en html - IMPORTANTE NO OLVIDAR
+      attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>,<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash;Map data: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+      maxZoom: 20  // zoom máximo
+      });
+
+stamen_tms.addTo(mapa1);
+
+// 2. Capa TM de OpenStreetMap (render Mapnik)
+
+var OSM_mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+
+OSM_mapnik.addTo(mapa1);
+
+// 3. Añadir WMS: ejemplo WMS PNOA
+
+var PNOA1 = L.tileLayer.wms('http://www.idee.es/wms/PNOA/PNOA?', {  //URL WMS
+    layers: 'PNOA',          // capa del WMS
+    format: 'image/png',     // tipo de formato
+    transparent: true,       // activa capa alfa/transparente
+    attribution: ' <i>Imagen PNOA</i> &copy; IGN'
+    });
+
+PNOA1.addTo(mapa1);         // añadir capa al mapa
+
+// 4. añadir WMS PNOA histórico
+// http://www.ign.es/wms/pnoa-historico?
+// capa: AMS_1956-1957
+
+var PNOA2 = L.tileLayer.wms('http://www.ign.es/wms/pnoa-historico?', {  //URL WMS
+    layers: 'AMS_1956-1957',          // capa del WMS: AMS_1956-1957
+    format: 'image/png',     // tipo de formato
+    transparent: true,       // activa capa alfa/transparente
+    attribution: ' <i>Imagen PNOA</i> &copy; IGN'
+    });
+
+PNOA2.addTo(mapa1);         // añadir capa al mapa
+
+// 5. Capa con un círculo
+var circulo = L.circle(      // variable círculo en esas coordenadas
+    [41.5, -1],         // coordenadas del centro
+    {               
+    color: 'orange',             // estilo color
+    fillColor: 'yellow',        //        color de relleno
+    fillOpacity: 0.2,          //        opacidad del relleno
+    radius: 250000            //        radio: 250Km
+    }
+    );
+
+circulo.addTo(mapa1);
+
+// INICIO de código de Control de capas
+
+// CAPAS BASE - que puedo intercambiar
+var baseMaps = {                  // variable con apartado de mapas base
+    "Stamen": stamen_tms,
+    "OpenStreetMap": OSM_mapnik,  // elemento a incluir y descripción
+    //"Imagen PNOA": PNOA1
+    };
+
+// Capas del proyecto que puedo activar y desactivar
+var overlayMaps = {              // apartado de capas
+    "Ortotfoto PNOA": PNOA1,     // elemento a incluir y descripción
+    "Vuelo americano": PNOA2,
+    "Círulo molón :-P": circulo
+    };
+
+// Ahora genero el control de las capas
+var capas = L.control.layers(   // variable con control de capas
+  baseMaps,                     // añadiendo capas base
+  overlayMaps,                  // añadiendo capas
+  {collapsed:false});           // control desplegado
+
+// Y lo cargo a mi mapa
+capas.addTo(mapa1);           // añadimos control de capas al mapa
+
+
+// ESCALA del mapa - INCLUIR SIEMPRE!
+
+var escala = L.control.scale({
+    imperial:false,             // suprimir escala imperial
+    position:'topleft'          // posición arriba a la izquierda
+    })
+ escala.addTo(mapa1);
+
+
+</script>
+
+<!-- FIN de bloque dónde aparecerá el mapa -->
+
+
+</body>

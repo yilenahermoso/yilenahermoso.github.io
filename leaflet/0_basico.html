@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi primer mapa web con Leaflet</title>
+    <meta charset="utf-8" />
+
+    <!-- enlace a CSS de Leaflet v. 1.6.0 en la cabecera -->
+    <link rel="stylesheet" href="codigo_js/leaflet.css"/>
+
+    <!-- enlace a JavaScript de Leaflet v. 1.6.0 (justo tras CSS) -->
+    <script src="codigo_js/leaflet.js">
+    </script>
+</head>
+
+<body>
+
+<h1>Mapas de pruebas con Leaflet</h1>
+<p>Los mapas que encuentras a continuaciṕon son un ejemplo.<br>
+   Fíjaté que puedes mover los bloques de cada mapa en el
+   cuerpo de la página web.<br></p>
+
+<h2>Mapa 1</h2>
+
+<p>Primer mapa de prueba:</p>
+<!-- bloque dónde aparecerá el mapa -->
+<div id="bloque_mapa1" 
+    style="width: 500px; height: 600px;">
+</div>
+
+<!-- Aqui incluyo código JS de Leaflet -->
+
+<script>
+
+// NO OLVIDES COMENTAR EL CÓDIGO
+
+// definimos el mapa como una variable y le ajustamos dónde lo queremos ver
+    var mapisimo = L.map('bloque_mapa1').setView([40, -2], 5);
+
+
+// añadimos mapa de fondo
+    L.tileLayer(
+    // dirección de las tiles
+    'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
+    // propiedades
+    { maxZoom: 10,  // zoom máximo 10
+    // Líneas de atribución
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        id: 'mapbox.streets'
+    }).addTo(mapisimo);
+
+
+// añadimos punto (marcador)
+
+  var punto = L.marker([41.5, -0.5], {}); // marcador en esas coordenadas
+  punto.addTo(mapisimo);           // se añade al mapa
+
+
+// añadimos círculo
+
+var circulo = L.circle(      // variable círculo en esas coordenadas
+    [41.5, -1.34456],        // coordenadas del centro
+    {               
+    color: 'orange',             // estilo color
+    fillColor: 'yellow',        //        color de relleno
+    fillOpacity: 0.25,         //        opacidad del relleno
+    radius: 150000            //        radio: 300Km
+    }
+    );
+    
+circulo.addTo(mapisimo);       // se añade al mapa (otro modo)
+
+
+// añadimos polígono
+
+var poligono = L.polygon(           // llamo a la función de crear poligono
+    [[35, -5], [46, -3], [40, 6]]); // añado los nodos
+
+poligono.addTo(mapisimo)            // se añade al mapa
+
+</script>
+
+<!-- FIN de bloque dónde aparecerá el mapa1 -->
+
+
+<h2>Mapa 2</h2>
+
+<p>Segundo mapa de prueba:</p>
+
+<!-- bloque dónde aparecerá el mapa2 -->
+<div id="bloque_mapa2" 
+    style="width: 600px; height: 400px;">
+</div>
+
+<!-- Aqui incluyo código JS de Leaflet -->
+
+<script>
+// definimos el mapa como una variable y le ajustamos dónde lo queremos ver
+    var mapisimo = L.map('bloque_mapa2').setView([40, -2], 4);
+
+
+// añadimos mapa de fondo de satélite de Mapbox
+    L.tileLayer(
+        // dirección de las tiles
+        'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
+        // propiedades
+        { maxZoom: 10,  // zoom máximo 10
+        // Líneas de atribución
+        attribution: 'Satellite imagery by Mapbox',
+        id: 'mapbox.satellite'
+    }).addTo(mapisimo);
+
+</script>
+
+<!-- FIN de bloque dónde aparecerá el mapa2 -->
+
+</body>

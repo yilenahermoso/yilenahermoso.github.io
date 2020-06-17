@@ -23,7 +23,7 @@
 }
 
 .proyectos{
-    padding: 10%;
+    padding: 10%; /* Espacio alrededor del 10% */
     text-align: center;
 }
 
@@ -58,11 +58,12 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.footer{
+.footer{ /* CSS para el contacto, e-mail y dirección */
     margin-top: 5%;
-    background-color: #18242a;
+    font-size: 12px; /* tamaño de letra */
+    background-color: #18242a; /* color del fondo */
     padding: 1%;
-    color: white;
+    color: white;/* color de la letra */
 }
 
 .box img{
@@ -71,5 +72,11 @@
 }
 
 .justify{
-    text-align: justify;
+    text-align: justify; /* alineación del texto */
+}
+
+.descripcion{
+    font-size: 14px; /* tamaño de letra */
+    font-family: 'Raleway'; /* tipo de letra */
+    padding: 5%;
 }

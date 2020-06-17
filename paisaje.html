@@ -6,30 +6,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <meta author="Yilena Hermoso">
-    <title>Página web de ejemplo</title>
+    <title>Página web Yilena Hermoso</title>
+
+    <!-- enlace a CSS de Leaflet v. 1.6.0 en la cabecera -->
+    <link rel="stylesheet" href="./leaflet/codigo_js/leaflet.css"/>
+
+    <!-- enlace a JavaScript de Leaflet v. 1.6.0 -->
+    <script src="./leaflet/codigo_js/leaflet.js">
+    </script>
+
     </head>
     <body>
       <div class="cuerpo"> 
         <div class="header" style="height: 500px;"> 
           <div class="">
               <div class="col-xs-12">
-                <p class="tituloHeader">Geografa la puta ama</p>
-                <p class="subtituloHeader">Cuidemos la tierra, es el único planeta que tiene chocolate y cerveza</p>
+                <p class="tituloHeader">Yilena Hermoso</p> <!-- Aqui esta el contenido de la cabecera, titulo -->
+                <p class="subtituloHeader">Geógrafa</p> <!-- Aqui esta el contenido de la cabecera, subtitulo -->
               </div>
           </div>
         </div>
 
               <a href="./index.html">  
-                <div class="col-xs-6 col-md-3">
+                <div class="col-xs-6 col-md-3"> <!-- Adaptación responsive dispositivos moviles, numero de columnas que ocupa el div -->
                   <div class="cuadro box">
                     Inicio
                   </div>
                 </div>
               </a>
         
-        <div class="proyectos">   
-            <p class="proyectosPersonales">Informe técnico de planificación del paisaje del entorno del municipio de Calaceite</p><hr>
-              <div class="col-xs-12 col-md-12 justify">
+        <div class="proyectos">   <!-- etiqueta de estilo css -->
+            <p class="proyectosPersonales"> <!-- etiqueta de estilo css --> Informe técnico de planificación del paisaje del entorno del municipio de Calaceite</p><hr>
+              <div class="col-xs-12 col-md-12 justify"> <!-- Adaptación responsive dispositivos moviles, numero de columnas que ocupa el div, justificado -->
                 El ser humano a lo largo de su historia ha variado enormemente la sensibilidad que tiene hacia el medio ambiente, siendo en la actualidad muy elevada. 
                 Pero esta dinámica actual es un hecho realmente reciente pues ha sido prácticamente en el último siglo cuando estas cuestiones se han puesto en alza y 
                 el paisaje ha pasado a jugar un papel fundamental en muchos aspectos de la vida cotidiana y a ser amparado por numerosas instituciones y gobiernos.
@@ -83,16 +91,77 @@
                 9) Anexo: 
                 </pre>  
               </div>
-              <a href="./img/paisaje.pdf">  
-                <div  style="align-items: center;"> 
-                      <img src="./img/pdf.png" alt="Informe" height="100px">
+              <a href="./img/paisaje.pdf">  <!-- Referencia para la descarga del documento PDF -->
+                <div  style="align-items: center;"> <!-- Alineación -->
+                      <img src="./img/pdf.png" alt="Informe" height="100px"> <!-- imagen sobre la que descargar el documento -->
                 </div>
              </a>
         </div>    
 
+
+
+<!-- cargar javascript (objeto GeoJSON transformado) -->
+<script src="./leaflet/layers/municipios.geojson"></script>
+
+
+<div id="bloque_mapa" 
+  style="width: 950px; height: 300px;box-shadow:5px 5px 5px #888"> 
+</div>
+  <!-- aqui ya se mete el javascript de Leaflet, que incluye el codigo especial para que se vea el mapa-->
+  <script>
+      // definimos el mapa como una varianble y le ajustamos dónde lo queremos ver
+      var mi_mapa = L.map('bloque_mapa').setView([41.017, 0.187], 6);
+      // añadimos mapa de fondo
+      L.tileLayer(
+      // dirección de las tiles
+      'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
+      // propiedades
+      { maxZoom: 20, // zoom máximo
+      // Líneas de atribución
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+      id: 'mapbox.streets'
+      }).addTo(mi_mapa);
+    
+      //Escala
+      var escala = L.control.scale() 
+      escala.addTo(mi_mapa);
+
+      //Se agrega capa WMS
+      var PNOA = L.tileLayer.wms('http://www.idee.es/wms/PNOA/PNOA?', {  //URL WMS
+      layers: 'PNOA',          // capa del WMS
+      format: 'image/png',     // tipo de formato
+      transparent: true,       // activa capa alfa/transparente
+      });
+  PNOA.addTo(mi_mapa);         // añadir capa al mapa
+//Se carga javascript (objeto GeoJSON transformado) de las Comunidades Autonomas
+  
+
+      //Se carga javascript (objeto GeoJSON transformado)
+       
+
+      var municipios = L.geoJSON(
+        municipios, {
+          color:'pink',
+          fillColor:'blue',
+          fillOpacitiy: 0.2,
+        });
+        municipios.addTo(mi_mapa)
+    
+
+
+      //marcador del municipio de estudio
+      var punto = L.marker([41.01, -0.18],{draggable: true}).addTo(mi_mapa);//Calaceite
+      
+    </script>
+
+
+
       <div class="">
         <footer class="col-xs-12 footer">
-          <p>contacto</p>
+          <p><b>Contacta conmigo</b> <br>
+            Dirección: Cuarte de Huerva, Zaragoza (50410) <br>
+            Teléfono: (+34) 000 000 000 <br>
+            E-mail: ...@gmail.com <br>
         </footer>
       </div>      
       <script src="js/js.js"></script>
