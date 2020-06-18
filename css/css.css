@@ -39,11 +39,12 @@
     height: 50%;
     background-color: #f8f8f8;
     padding: 3%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);/*Sombra para el div*/
 }
 
 .sobre{
     padding: 5%;
+    margin-top: 5%;
 }
 .sobreMi{
     color: #cbcbcb;
@@ -55,7 +56,7 @@
 .cuadro2{
     height: 50%;
     background-color: #f8f8f8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);/*Sombra para el div*/
 }
 
 .footer{ /* CSS para el contacto, e-mail y dirección */
@@ -71,12 +72,59 @@
     padding-top: 2%;
 }
 
+.imgyo img{
+    width: 100%;
+}
+
 .justify{
     text-align: justify; /* alineación del texto */
 }
 
 .descripcion{
-    font-size: 14px; /* tamaño de letra */
+    font-size:16px; /* tamaño de letra */
     font-family: 'Raleway'; /* tipo de letra */
     padding: 5%;
+}
+
+.enlace{
+    font-family: 'Raleway'; /* tipo de letra */
+    color: black;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+    .descripcion {
+        font-size:10px; /* tamaño de letra cuando la pantalla sea pequeña*/
+    }
+    .sobreMi {
+        font-size:20px; /* tamaño de letra cuando la pantalla sea pequeña*/
+    }
+    .sobre {
+        margin-top: 250%; /* margen cuando la pantalla sea pequeña*/
+    }
+    .proyectosPersonales {
+        font-size:20px; /* tamaño de letra cuando la pantalla sea pequeña*/
+    }
+    .tituloHeader {
+        font-size: 30px; /* tamaño de letra cuando la pantalla sea pequeña*/
+    }
+    .subtituloHeader {
+        font-size: 20px; /* tamaño de letra cuando la pantalla sea pequeña*/
+    }
+}
+
+.enlace{
+    font-family: 'Raleway'; /* tipo de letra */
+    color: black;
+}
+
+.home{
+    padding: 5%;
+    color: grey;
+    font-size: 25px;
+}
+
+.mapa{
+    width: auto; height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);/*Sombra para el div*/
 }

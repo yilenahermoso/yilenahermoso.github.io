@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/css.css" type="text/css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -27,13 +28,10 @@
           </div>
         </div>
 
-              <a href="./index.html">  
                 <div class="col-xs-6 col-md-3"> <!-- Adaptación responsive dispositivos moviles, numero de columnas que ocupa el div -->
-                  <div class="cuadro box">
-                    Inicio
-                  </div>
+                  <a class="glyphicon glyphicon-home home" href="./index.html"></a>  <!-- Referencia para acudir a la pagina principal. glyphicon glyphicon-home, icono de casa  -->
                 </div>
-              </a>
+              
         
         <div class="proyectos">   <!-- etiqueta de estilo css -->
             <p class="proyectosPersonales"> <!-- etiqueta de estilo css --> Informe técnico de planificación del paisaje del entorno del municipio de Calaceite</p><hr>
@@ -55,7 +53,7 @@
                 Por lo tanto, esto indica que el paisaje, o más bien su percepción, va a variar enormemente en función de quien lo esté estudiando. Por ello, mediante el 
                 presente documento, la empresa Geodudes S.L. formada íntegramente por geógrafos se dedicará a dar una visión experta e integradora de este término.
                 <hr>
-                <pre>
+                <pre> <!-- Utilizado para mantener el mismo formato en la pagina web -->
                 Índice: 
                 1) Introducción y objetivos
                     1.1 Normativa vigente:  
@@ -89,7 +87,7 @@
                 7) Objetivos de calidad paisajística para Calaceite y acciones asociadas y descritas: 
                 8) Bibliografía: 
                 9) Anexo: 
-                </pre>  
+                </pre>  <!-- Hasta aquí se mantiene este formato en la pagina web -->
               </div>
               <a href="./img/paisaje.pdf">  <!-- Referencia para la descarga del documento PDF -->
                 <div  style="align-items: center;"> <!-- Alineación -->
@@ -99,13 +97,14 @@
         </div>    
 
 
-
+<!-- AQUÍ EMPIEZA EL VISOR CARTOGRÁFICO SENCILLO -->
+<!--Se carga javascript (objeto GeoJSON transformado) -->
+<script src="./leaflet/layers/municipios.js"></script>
 <!-- cargar javascript (objeto GeoJSON transformado) -->
 <script src="./leaflet/layers/municipios.geojson"></script>
 
 
-<div id="bloque_mapa" 
-  style="width: 950px; height: 300px;box-shadow:5px 5px 5px #888"> 
+<div id="bloque_mapa" class="mapa"> 
 </div>
   <!-- aqui ya se mete el javascript de Leaflet, que incluye el codigo especial para que se vea el mapa-->
   <script>
@@ -136,8 +135,7 @@
 //Se carga javascript (objeto GeoJSON transformado) de las Comunidades Autonomas
   
 
-      //Se carga javascript (objeto GeoJSON transformado)
-       
+      
 
       var municipios = L.geoJSON(
         municipios, {
@@ -151,10 +149,22 @@
 
       //marcador del municipio de estudio
       var punto = L.marker([41.01, -0.18],{draggable: true}).addTo(mi_mapa);//Calaceite
-      
+      // añadimos círculo
+
+      var circle = L.circle( // variable círculo en esas coordenadas
+      [41.01, -0.18], { // coordenadas del centro
+      color: 'lightblue', // estilo color
+      fillColor: 'lightblue', // color de relleno
+      fillOpacity: 0.5, // opacidad del relleno
+      radius: 100000 // radio: 300Km
+      }).addTo(mi_mapa); // se añade al mapa (otro modo)
+
     </script>
 
-
+<!-- <iframe width="1200" height="453"
+style="border: 0px solid #AAA; width: 1200px; height: 453px;"
+src="C:/Users/crish/Documents/GitHub/yilenahermoso.github.io/visor_tematico.html"></iframe>
+</iframe> -->
 
       <div class="">
         <footer class="col-xs-12 footer">
