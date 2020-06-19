@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/css.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> <!-- caracteres utf-8 -->
+    <link rel="stylesheet" href="css/css.css" type="text/css" media="screen"> <!-- mi archivo de estilo css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- archivo de estilo y funcionalidades bootstrap -->
 
     <meta author="Yilena Hermoso">
     <title>Página web Yilena Hermoso</title>
@@ -98,12 +97,12 @@
 
 
 <!-- AQUÍ EMPIEZA EL VISOR CARTOGRÁFICO SENCILLO -->
+
 <!--Se carga javascript (objeto GeoJSON transformado) -->
 <script src="./leaflet/layers/municipios.js"></script>
 <!-- cargar javascript (objeto GeoJSON transformado) -->
 <script src="./leaflet/layers/municipios.geojson"></script>
-
-
+Presentación del visor cartográfico sencillo - Localización del municipio de Calaceite en el conjunto nacional:
 <div id="bloque_mapa" class="mapa"> 
 </div>
   <!-- aqui ya se mete el javascript de Leaflet, que incluye el codigo especial para que se vea el mapa-->
@@ -131,12 +130,10 @@
       format: 'image/png',     // tipo de formato
       transparent: true,       // activa capa alfa/transparente
       });
-  PNOA.addTo(mi_mapa);         // añadir capa al mapa
-//Se carga javascript (objeto GeoJSON transformado) de las Comunidades Autonomas
-  
-
+      PNOA.addTo(mi_mapa);         // añadir capa al mapa
       
-
+      /*PARTE QUE NO ME HA FUNCIONADO AL CARGAR MIS CAPAS CONVERTIDAS A GEOJSON EN QGIS
+      //Se carga javascript (objeto GeoJSON transformado) de las Comunidades Autonomas
       var municipios = L.geoJSON(
         municipios, {
           color:'pink',
@@ -144,27 +141,29 @@
           fillOpacitiy: 0.2,
         });
         municipios.addTo(mi_mapa)
-    
-
+      PARTE QUE NO ME HA FUNCIONADO AL CARGAR MIS CAPAS CONVERTIDAS A GEOJSON EN QGIS*/
 
       //marcador del municipio de estudio
       var punto = L.marker([41.01, -0.18],{draggable: true}).addTo(mi_mapa);//Calaceite
       // añadimos círculo
 
-      var circle = L.circle( // variable círculo en esas coordenadas
+      var circle = L.circle( // variable círculo del municipio de estudio, Calaceite
       [41.01, -0.18], { // coordenadas del centro
       color: 'lightblue', // estilo color
       fillColor: 'lightblue', // color de relleno
       fillOpacity: 0.5, // opacidad del relleno
-      radius: 100000 // radio: 300Km
-      }).addTo(mi_mapa); // se añade al mapa (otro modo)
+      radius: 100000 // radio: 100Km
+      }).addTo(mi_mapa); // se añade al mapa
 
     </script>
-
-<!-- <iframe width="1200" height="453"
-style="border: 0px solid #AAA; width: 1200px; height: 453px;"
-src="C:/Users/crish/Documents/GitHub/yilenahermoso.github.io/visor_tematico.html"></iframe>
-</iframe> -->
+<br>
+<a class="enlace" href="./visor_tematico.html">  <!-- dirección de referencia, nueva página para ver la información sobre el informe de paisaje -->
+  <div class="col-xs-12 col-md-3"> <!-- Adaptación responsive dispositivos moviles, numero de columnas que ocupa el div -->
+    <div class="cuadro box">
+      Visor cartográfico temático
+    </div>
+  </div>
+</a>
 
       <div class="">
         <footer class="col-xs-12 footer">

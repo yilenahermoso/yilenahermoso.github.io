@@ -1,3 +1,4 @@
+//esto coincide con la parte que no me ha funcionado
 var municipios = {
     "type": "FeatureCollection",
     "name": "municipios",
