@@ -105,6 +105,9 @@
     .enlace2 {
         font-size: 2.6vw;
     }
+    .enlace2 img{
+        width: 3.2vw;
+    }
 }
 
 .centro{
