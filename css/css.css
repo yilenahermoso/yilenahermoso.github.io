@@ -4,8 +4,15 @@
     font-family: 'Montserrat';
 }
 
-.header {
+.centro{
     text-align: center;
+}
+
+.padding-l{
+    padding-left: 5vw;
+}
+
+.header {
     background-image: url(../img/fondo1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -23,9 +30,14 @@
     margin-top: 15vh;
 }
 
+.bloque2{
+    margin-top: 9vh;
+}
+
 .pantallaCompleta {
     height: 100vh;
 }
+
 
 @media screen and (max-width:800px) {
     .pantallaCompleta {
@@ -40,9 +52,16 @@
     font-weight: bold;
 }
 
+.tituloHeader2 {
+    color: #1A1817;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
 @media screen and (max-width:800px) {
     .tituloHeader {
         padding-top: 19vh;
+        font-size: 30px;
     }
 }
 
@@ -51,9 +70,10 @@
     font-size: 30px;
 }
 
+
 @media screen and (max-width:800px) {
     .subtituloHeader {
-        font-size: 10vw;
+        font-size: 20px;
     }
 }
 
@@ -91,7 +111,6 @@
     width: 43vw;
     margin-bottom: 4vh;
     display: inline-block;
-    font-size: 1.2vw;
 }
 
 .enlace2 img{
@@ -102,16 +121,9 @@
     .enlace {
         width: 100vw;
     }
-    .enlace2 {
-        font-size: 2.6vw;
-    }
     .enlace2 img{
         width: 3.2vw;
     }
-}
-
-.centro{
-    text-align: center;
 }
 
 .zoom {
@@ -203,11 +215,11 @@
 }
 
 .contenido{
-    font-size: 1.2vw;
+    font-size: 0.8vw;
 }
 
 .contenido2{
-    font-size: 1.2vw;
+    font-size: 0.6vw;
 }
 
 @media screen and (max-width:800px) {
@@ -223,7 +235,6 @@ footer {
     width: 90vw;
     border-radius: 5px;
     margin-top: 5%;
-    font-size: 12px;
     /* background-color: #FCFCFC; */
     background-color: #F0F0F0;
     /* background: linear-gradient(to bottom, #F0F0F0, white); */
@@ -250,19 +261,7 @@ footer {
         font-size: 20px;
         /* tamaño de letra cuando la pantalla sea pequeña*/
     }
-    .sobre {
-        /* margin-top: 250%; */
-        /* margen cuando la pantalla sea pequeña*/
-    }
     .proyectosPersonales {
-        font-size: 20px;
-        /* tamaño de letra cuando la pantalla sea pequeña*/
-    }
-    .tituloHeader {
-        font-size: 30px;
-        /* tamaño de letra cuando la pantalla sea pequeña*/
-    }
-    .subtituloHeader {
         font-size: 20px;
         /* tamaño de letra cuando la pantalla sea pequeña*/
     }
