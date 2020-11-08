@@ -91,6 +91,7 @@
     width: 43vw;
     margin-bottom: 4vh;
     display: inline-block;
+    font-size: 1.2vw;
 }
 
 .enlace2 img{
@@ -100,6 +101,9 @@
 @media screen and (max-width:800px) {
     .enlace {
         width: 100vw;
+    }
+    .enlace2 {
+        font-size: 2.6vw;
     }
 }
 
@@ -199,9 +203,16 @@
     font-size: 1.2vw;
 }
 
+.contenido2{
+    font-size: 1.2vw;
+}
+
 @media screen and (max-width:800px) {
     .contenido{
         font-size: 2.1vh;
+    }
+    .contenido2{
+        font-size: 2.6vw;
     }
 }
 
