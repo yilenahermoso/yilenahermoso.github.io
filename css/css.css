@@ -1,130 +1,228 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+    font-family: 'Montserrat';
+}
+
 .header {
-    background-image: url(../img/mountain3.jpg);
-    background-position: center center; /* Nos aseguramos que la imagen de fondo este centrada vertical y horizontalmente en todo momento */
-    background-repeat: no-repeat; /* La imagen de fondo no se repite */
+    text-align: center;
+    background-image: url(../img/fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+@media screen and (max-width:800px) {
+    .header {
+        background-image: url(../img/fondo1.jpg);
+    }
+}
+
+.bloque{
+    margin-top: 15vh;
+}
+
+.pantallaCompleta {
+    height: 100vh;
+}
+
+@media screen and (max-width:800px) {
+    .pantallaCompleta {
+        height: 50vh;
+    }
+}
+
 .tituloHeader {
-    color: whitesmoke;
+    padding-top: 40vh;
+    color: #1A1817;
     font-size: 55px;
-    text-align: center;
-    font-family: 'Raleway';
-    font-weight:bold;
+    font-weight: bold;
+}
+
+@media screen and (max-width:800px) {
+    .tituloHeader {
+        padding-top: 19vh;
+    }
 }
 
 .subtituloHeader {
-    color: #df7f49;
+    color: #7C7471;
     font-size: 30px;
-    text-align: center;
-    font-family: 'Raleway';
+}
+
+@media screen and (max-width:800px) {
+    .subtituloHeader {
+        font-size: 10vw;
+    }
+}
+
+
+.titulo1 {
+    font-size: 40px;
+    margin-bottom: 4%;
+    font-weight: bold;
 }
 
 .proyectos{
-    padding: 10%; /* Espacio alrededor del 10% */
+    margin: 0px 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: initial;
+	-webkit-box-align: initial;
+	-ms-flex-align: initial;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: lightcoral; */
+}
+
+.enlace {
+    width: 45vw;
+    margin-bottom: 4vh;
+}
+
+@media screen and (max-width:800px) {
+    .enlace {
+        width: 100vw;
+    }
+}
+
+.centro{
     text-align: center;
 }
 
-.proyectosPersonales{
-    color: #cbcbcb;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Raleway';
-    margin-bottom: 4%;
+.zoom {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
-.cuadro{
-    height: 50%;
-    background-color: #f8f8f8;
-    padding: 3%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);/*Sombra para el div*/
+.zoom a {
+    text-align: center;
+}
+
+.zoom:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.alinear{
+    padding-left: 4.8vw;
+    padding-right: 4.8vw;
+    padding-bottom: 1vh;
+}
+
+@media screen and (max-width:800px) {
+    .alinear {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+.alinear .titulo{
+    margin-top: 3vh;
+    font-weight: bold;
+}
+
+.alinear2{
+    padding-left: 9vw;
+}
+
+@media screen and (max-width:800px) {
+    .alinear2 {
+        margin-bottom: 9vh;
+    }
+}
+
+.box img {
+    width: 35vw;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:800px) {
+    .box img {
+        width: 80vw;
+    }
+}
+
+.titulo {
+    font-size: 3vh;
 }
 
 .sobre{
-    padding: 5%;
-    margin-top: 5%;
-}
-.sobreMi{
-    color: #cbcbcb;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Raleway';
+    margin-top: 5vw;
 }
 
-.cuadro2{
-    height: 50%;
-    background-color: #f8f8f8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);/*Sombra para el div*/
+.imgyo img {
+    width: 35vw;
+    border-radius: 5px;
 }
 
-.footer{ /* CSS para el contacto, e-mail y dirección */
+@media screen and (max-width:800px) {
+    .imgyo img {
+        width: 80vw;
+    }
+}
+
+.descripcion {
+    font-size: 1.2vw;
+    padding: 5vw;
+}
+
+@media screen and (max-width:800px) {
+    .descripcion {
+        font-size: 2.1vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+footer {
+    width: 90vw;
+    border-radius: 5px;
     margin-top: 5%;
-    font-size: 12px; /* tamaño de letra */
-    background-color: #18242a; /* color del fondo */
+    font-size: 12px;
+    /* background-color: #FCFCFC; */
+    background-color: #F0F0F0;
     padding: 1%;
-    color: white;/* color de la letra */
 }
 
-.box img{
-    width: 100%;
-    padding-top: 2%;
-}
-
-.imgyo img{
-    width: 100%;
-}
-
-.justify{
-    text-align: justify; /* alineación del texto */
-}
-
-.descripcion{
-    font-size:16px; /* tamaño de letra */
-    font-family: 'Raleway'; /* tipo de letra */
-    padding: 5%;
-}
-
-.enlace{
-    font-family: 'Raleway'; /* tipo de letra */
-    color: black;
+.correo{
+    background-color: #101213;
+    color: white;
+    padding:0.7%;
+    width: 70vw;
+    border-radius: 5px;
+    margin-top: -2vh;
 }
 
 /* Use a media query to add a break point at 800px: */
+
 @media screen and (max-width:800px) {
-    .descripcion {
-        font-size:10px; /* tamaño de letra cuando la pantalla sea pequeña*/
-    }
     .sobreMi {
-        font-size:20px; /* tamaño de letra cuando la pantalla sea pequeña*/
+        font-size: 20px;
+        /* tamaño de letra cuando la pantalla sea pequeña*/
     }
     .sobre {
-        margin-top: 250%; /* margen cuando la pantalla sea pequeña*/
+        /* margin-top: 250%; */
+        /* margen cuando la pantalla sea pequeña*/
     }
     .proyectosPersonales {
-        font-size:20px; /* tamaño de letra cuando la pantalla sea pequeña*/
+        font-size: 20px;
+        /* tamaño de letra cuando la pantalla sea pequeña*/
     }
     .tituloHeader {
-        font-size: 30px; /* tamaño de letra cuando la pantalla sea pequeña*/
+        font-size: 30px;
+        /* tamaño de letra cuando la pantalla sea pequeña*/
     }
     .subtituloHeader {
-        font-size: 20px; /* tamaño de letra cuando la pantalla sea pequeña*/
+        font-size: 20px;
+        /* tamaño de letra cuando la pantalla sea pequeña*/
     }
-}
-
-.enlace{
-    font-family: 'Raleway'; /* tipo de letra */
-    color: black;
-}
-
-.home{
-    padding: 5%;
-    color: grey;
-    font-size: 25px;
-}
-
-.mapa{
-    width: auto; height: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);/*Sombra para el div*/
 }
