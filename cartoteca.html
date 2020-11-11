@@ -5,91 +5,82 @@
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
     <link rel="stylesheet" href="css/css.css" type="text/css" media="screen"> 
+    <link rel="stylesheet" href="css/carto.css" type="text/css" media="screen"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
     
     <meta author="Yilena Hermoso">
     <title>Yilena Hermoso</title>
     </head>
     <body> 
-      <div class="cuerpo"> 
-        <div class="header padding-l"> 
+      <div class="cuerpo2"> 
+        <div class="padding-l"> 
             <br><p class="tituloHeader2">Cartoteca</p> 
-            <p class="subtituloHeader contenido">Graduada en Geografía y Ordenación del Territorio</p><br>
+            <p class="subtituloHeader contenido"><a href="./index.html">Inicio</a></p><br>
         </div>
-        <div class="col-xs-6 col-md-3"> <!-- Adaptación responsive dispositivos moviles, numero de columnas que ocupa el div -->
-                  <a class="glyphicon glyphicon-home home" href="./index.html"></a>  <!-- Referencia para acudir a la pagina principal. glyphicon glyphicon-home, icono de casa  -->
-                </div>
-        <div class="bloque2">
-          <div class="proyectos"> 
-            <div class="enlace">
-              <div class="zoom">
-                <a class="" href="http://zaguan.unizar.es/record/85243#"> 
-                  <div class="cuadro box">
-                    <img src="./img/terremotos.jpg" alt="Portada tfg"> 
-                  </div>
-                </a>
-              </div> 
-              <div class="alinear">
-                <p class="titulo2">Terremotos - ArcGIS Pro</p>
-                <p class="contenido">Exposición de la población a terremotos en EEUU. Estado de California, año 2017</p>             
-              </div>
-            </div>
-            <div class="enlace">
-              <div class="zoom">
-                <a class="" href="./img/YilenaHermoso_genero2.pdf">  
-                  <div class="cuadro box">
-                    <img src="./img/pruebaraul.png" alt="Cartografía Violencia de genero"> 
-                  </div>
-                </a>
-              </div>
-              <div class="alinear">
-                <p class="titulo2">Callejero Zaragoza</p>              
-                <p class="contenido">Cuadro recuerdo ciudad de Zaragoza.</p>             
-              </div>
-            </div>
-            <div class="enlace">
-              <div class="zoom">
-                <a class="" href="https://zerowastezgz.blogspot.com/"> 
-                  <div class="cuadro box">
-                    <img src="./img/Efimeros_estudio_sosa.jpg" alt="Foto de nosotras"> 
-                  </div>
-                </a>
-              </div>
-              <div class="alinear">
-                <p class="titulo2">Río Sosa</p>
-                <p class="contenido">Mapa de localización del río Sosa, Cuenca Hidrográfica del Ebro.</p>             
-              </div>
-            </div>
-            <div class="enlace">
-              <div class="zoom">
-                <a class="" href="./paisaje.html">  
-                  <div class="cuadro box">
-                    <img src="./img/violencia.png" alt="Informe ténico de paisaje"> 
-                  </div>
-                </a>
-              </div>
-              <div class="alinear">
-                <p class="titulo2">Víctimas de violencia de género en España</p>
-                <p class="contenido">Víctimas totales por CCAA; Víctimas mortales por provincias; Evolución 2003-2018.</p>             
-              </div>
-            </div>
-          </div>
+        <div id="grid"></div>
+        <div class="gallery"> 
+          <figure class="gallery__item gallery__item--1 intern">
+            <a class="map" href="http://zaguan.unizar.es/record/85243#"> 
+              <img src="./img/terremotos.jpg" class="gallery__img" alt="Portada tfg"> 
+            </a>
+            <div class="textoImg1">
+              <p class="titulo2">Terremotos - ArcGIS Pro</p>
+              <p class="contenido">Exposición de la población a terremotos en EEUU. Estado de California, año 2017</p>             
+            </div>    
+            </figure>
+          <figure class="gallery__item gallery__item--2 intern">
+            <a class="map" href="https://zerowastezgz.blogspot.com/"> 
+              <img src="./img/Efimeros_estudio_sosa.jpg" class="gallery__img im2" alt="Foto de nosotras">           
+            </a>
+            <div class="textoImg1">
+              <p class="titulo2">Río Sosa</p>
+              <p class="contenido">Mapa de localización del río Sosa, Cuenca Hidrográfica del Ebro.</p>
+            </div>  
+          </figure>
+          <figure class="gallery__item gallery__item--3 intern">
+            <a class="map" href="./img/YilenaHermoso_genero2.pdf">  
+              <img src="./img/pruebaraul.png" class="gallery__img" alt="Cartografía Violencia de genero"> 
+            </a>
+            <div class="textoImg1">
+              <p class="titulo2">Callejero Zaragoza</p>              
+              <p class="contenido">Cuadro recuerdo ciudad de Zaragoza.</p>             
+            </div>  
+          </figure>
+          <figure class="gallery__item gallery__item--4 intern">
+            <a class="map" href="./paisaje.html">  
+              <img src="./img/violencia.png" class="gallery__img" alt="Informe ténico de paisaje"> 
+            </a>
+            <div class="textoImg1">
+              <p class="titulo2">Víctimas de violencia de género en España</p>
+              <p class="contenido">Víctimas totales por CCAA; Víctimas mortales por provincias; Evolución 2003-2018.</p>             
+            </div>    
+          </figure>
+          <figure class="gallery__item gallery__item--5 intern">
+            <a class="map" href="./paisaje.html">  
+              <img src="./img/violencia.png" class="gallery__img" alt="Informe ténico de paisaje"> 
+            </a>
+            <div class="textoImg1">
+              <p class="titulo2">Víctimas de violencia de género en España</p>
+              <p class="contenido">Víctimas totales por CCAA; Víctimas mortales por provincias; Evolución 2003-2018.</p>             
+            </div>    
+          </figure>
+        </div>
         </div>
 
-      <div class="proyectos">
-        <footer class="footer"> 
-          <div class="enlace2 centro">
-            <b>YILENA</b>
-            (+34) 622 138 614
+        <div class="proyectos">
+          <footer class="footer"> 
+            <div class="enlace2 centro contenido2">
+              <b>YILENA</b>
+              (+34) 622138614
+            </div>
+            <div class="enlace2 centro">
+              <a href="https://www.linkedin.com/in/yilena-hermoso-nadales-ba87671b7/"><img class="zoom" src="./img/linkedin2.png" alt="Linkedin"></a>
+            </div>
+          </footer> 
+          <div class="correo contenido2 centro zoom">
+            <a class="nosub" href="mailto:hermosoyilena@gmail.com" style="text-decoration: none;">HERMOSOYILENA@GMAIL.COM</a>
           </div>
-          <div class="enlace2 centro">
-            <a href="https://www.linkedin.com/in/yilena-hermoso-nadales-ba87671b7/"><img class="zoom" src="./img/linkedin2.png" alt="Linkedin"></a>
-          </div>
-        </footer> 
-        <div class="correo contenido2 centro zoom">
-          <a class="nosub" href="mailto:hermosoyilena@gmail.com" style="text-decoration: none;">HERMOSOYILENA@GMAIL.COM</a>
-        </div>
-      </div>  
+        </div> 
       <br>    
       <script src="js/js.js"> //script ejecutable dentro deL documento HTML
       </script> 
