@@ -137,7 +137,7 @@
     .gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(24, 24vw);
+        grid-template-rows: repeat(18, 24vw);
         grid-gap: 0px;
     }
     
